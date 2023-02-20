@@ -1,7 +1,6 @@
 *{
     background-color: rgb(0, 3, 12);
     color: #39ff14;
-    padding: 0;
 }
 
 body{
@@ -30,6 +29,11 @@ h4{
 .bar{
   background-color: #39ff14;
   margin: 0px;
+}
+
+.contents{
+  display: flex;
+  border: solid rebeccapurple;
 }
 
 /*Animation*/
