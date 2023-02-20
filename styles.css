@@ -31,14 +31,35 @@ h4{
 
 .bar{
   background-color: #39ff14;
-  margin: 0px;
+  margin-bottom: 50px;
 }
 
 .contents{
   display: flex;
-  border: solid rebeccapurple;
+  border: solid;
+  border-radius: 30px;
   font-size: 25px;
   font-weight: 100;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 150px;
+  padding: 10px;
+}
+
+.contents ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 160px;
+  margin-top: 5px;
+}
+
+.contents p{
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 40px;
 }
 
 /*Animation*/
