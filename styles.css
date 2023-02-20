@@ -1,6 +1,6 @@
 *{
     background-color: rgb(0, 3, 12);
-    color: #1F51FF;
+    color: #39ff14;
 }
 
 .header{
@@ -22,12 +22,13 @@ h4{
     margin-top: 10;
 }
 
+/*Animation*/
 .typing h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .10em; /* Adjust as needed */
+    overflow: hidden;
+    border-right: solid #39ff14; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .10em; 
     animation: 
       typing 2s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -42,6 +43,6 @@ h4{
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #1F51FF; }
+    50% { border-color: #39ff14; }
   }
 
