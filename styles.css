@@ -5,6 +5,9 @@
 
 body{
   padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .header{
@@ -34,6 +37,7 @@ h4{
 .contents{
   display: flex;
   border: solid rebeccapurple;
+
 }
 
 /*Animation*/
